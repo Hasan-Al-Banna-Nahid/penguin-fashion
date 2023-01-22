@@ -26,9 +26,22 @@
 <body>
     <header class="header-bg-color container mx-auto">
        <!-- Navbar section Start -->
+       <div class=" md:flex justify-between  py-12">
+        <div>
+            <img class="w-52 h-7 font-semibold" src="./images/logo.png" alt="">
+        </div>
+        <nav class="">
+            
+                <a href="" class="px-6 text-lg font-semibold text-slate-800">Home</a>
+                <a href="" class="px-6 text-lg font-semibold text-slate-800">About</a>
+                <a href="" class="px-6 text-lg font-semibold text-slate-800">product</a>
+                <a href="" class="px-6 text-lg font-semibold text-slate-800">Contact</a>
+            
+        </nav>
+       </div>
        <!-- Navbar section End -->
        <!-- Banner section Start -->
-       <div class=" md:flex justify-center items-center py-24 mx-auto">
+       <div class=" md:flex justify-center items-center py-16 mx-auto my-0">
         <div>
             <h2 class=" md:text-7xl uppercase font-normal header-title pb-2 "><span class="text-[#FABE4C]">Be The Penguins</span> <br> <span class="text-[#363958]">of winter</span></h2>
             <p class=" md:text-sm text-[#3E3E3E] font-normal pb-4 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae recusandae, <br> amet molestias alias optio accusantium suscipit fuga non explicabo at.</p>
@@ -153,8 +166,34 @@
         <!-- Mens Jacket Section End -->
 
         <!-- Last Section -->
-        <section >
-      
+        <section class="mt-6 mb-8  grid grid-cols-1 md:grid-cols-2 justify-center gap-5">
+            <div class="order-2 md:order-1 mx-auto bg-slate-100 shadow-2xl flex gap-5 p-6 rounded-2xl mb-3 justify-center w-9/12">
+                <img class="w-16 h-16" src="./images/house.png" alt="">
+                <div>
+                    <h3 class="text-2xl text-[#363958] font-bold">Find the Perfect Fit</h3>
+                    <p class="text-base text-[#3E3E3E] font-semibold">Everybody is different, which is why we <br>
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class=" order-1 md:order-2 row-span-3">
+                <img class="w-96 h-80" src="./images/shopping.png" alt="">
+            </div>
+            <div class="order-3 bg-slate-100 mx-auto shadow-2xl flex gap-5 p-6 rounded-2xl justify-center mb-3 w-9/12">
+                <img class="w-16 h-16" src="./images/box.png" alt="">
+                <div>
+                    <h3 class="text-2xl text-[#363958] font-bold">Free Exchanges</h3>
+                    <p class="text-base text-[#3E3E3E] font-semibold">Everybody is different, which is why we <br>
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="order-4 bg-slate-100 mx-auto shadow-2xl flex gap-5 p-6 rounded-2xl justify-center w-9/12">
+                <img class="w-16 h-16" src="./images/question.png" alt="">
+                <div>
+                    <h3 class="text-2xl text-[#363958] font-bold">Contact Our Seller</h3>
+                    <p class="text-base text-[#3E3E3E] font-semibold">They are here to help you. That's quite <br>
+                        literally what we pay them for.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
